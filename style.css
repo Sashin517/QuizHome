@@ -1,0 +1,165 @@
+            body{
+                margin:0;           
+                background: #FFF7D4;
+                font-family: 'Rubik', sans-serif;
+            }
+            nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                background-color: #FFD95A;
+                /*background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(29,27,31,1));*/
+                padding: 5px 4.5%;
+                
+            }
+            .logo{
+                width: 145px;
+            }
+            .left-list ul li a{
+                text-decoration: none;
+                color: #191609;
+                font-weight: 500;
+            }
+            .nav ul{
+                flex: 1;
+                text-align: right;
+            }
+            nav ul li{
+                display: inline-block;
+                list-style: none;
+                margin: 0 10px;
+            }
+            nav ul li a{
+                color: #191609;
+                text-decoration: none;
+                text-shadow: 1px 1px 4px var(#FF725E), 2px 2px 50px var(#558EFE);
+                font-size: 16px;
+                font-weight: 500;
+                font-style: 'Open Sans';
+                position: relative;
+            }
+            nav ul li a::after{
+                content: '';
+                width: 0;
+                height: 3px;
+                background: #FF725E;
+                position: absolute;
+                left: 0;
+                bottom: -4px;
+                transition: 0.5s;
+            }
+            nav ul li a:hover::after{
+                width:100%;
+            }
+            #first-section{
+                margin-top: 50px;
+                padding: 0px 4.5%;
+                display: flex;
+                align-items: center;
+            }
+
+            #first-section img{
+                width: 31%;
+                object-fit: contain;
+                margin-left: auto;
+                margin-right: 10%;
+            }
+            .left-sector{
+                
+            }
+            .left-sector h1{
+                font-size: 50px;
+                font-weight: 600;
+            }
+            .block{
+                
+            }
+            .btn{
+                cursor: pointer;
+                text-decoration: none;
+                color: #191609;
+                background-color: #FF725E;
+                font-weight: 500;
+                font-size: 20px;
+                padding: 6.5px 23px;
+                border-radius: 4px;
+                margin-right: 10px;;
+            }
+            .btn.btn2{
+                background-color: #03C988;
+            }
+            .cards{
+                margin-top: 50px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .container{                    
+                width: 200px;
+                height: 215px;
+                background-color: #4C3D3D;
+                border-radius: 8px;
+                margin-top: 9px;
+                margin-right: 9px;
+                display:block;
+                justify-content: center;
+                align-items: center;
+            }
+            .container h3{
+                margin-top: 50px;
+                font-size: 19px;
+                color: #fff;
+                text-align: center;
+                font-weight: 600;
+            }
+            .play-btn{
+                border: 1px solid #fff;
+                padding: 7px 10px;
+                justify-content: center;
+                border-radius: 25px;
+                width: fit-content;
+                margin: 35px auto;
+                
+                
+            }
+            .container a{
+                /*---webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: black;--*/
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+                color: #fff;
+                font-weight: 500;
+                font-size: 13.6px;
+            }
+            .container a i{
+                margin-right: 10px;
+            }            
+            #copyright{
+                margin-top: 400px;
+                padding: 85px 0;              
+                background: #4C411B;
+                
+            }
+            #copyright p{
+                color: #FFF;
+                font-family: 'Rubik', sans-serif;
+                font-size: 12.3px;
+                font-style: light;
+                font-weight: 600;
+                line-height: normal;
+                text-align: center;
+            }
+            .icons2{
+                justify-content: center;
+                display: flex;
+            }
+            .icons2 a{
+                padding: 0 5px;
+                text-decoration: none;
+                font-size: 26.5px;
+                margin-top: 1.5px;
+                color: #fff;
+                display: inline-block;
+                transition: transform 0.5s;
+            }
