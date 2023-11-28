@@ -1,7 +1,13 @@
-            body{
-                margin:0;           
-                background: #FFF7D4;
+            *{
                 font-family: 'Rubik', sans-serif;
+            }
+            html{
+                scroll-behavior: smooth;
+            }
+            body{
+                margin: 0;
+                padding: 0;         
+                background: #FFF7D4                
             }
             nav{
                 display: flex;
